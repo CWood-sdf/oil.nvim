@@ -32,6 +32,7 @@ local default_config = {
   delete_to_trash = false,
   -- Skip the confirmation popup for simple operations
   skip_confirm_for_simple_edits = false,
+  skip_confirm_for_all_edits = false,
   -- Selecting a new/moved/renamed file or directory will prompt you to save changes first
   prompt_save_on_select_new_entry = true,
   -- Oil will automatically delete hidden buffers after this delay
